@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "set GENERATE_SOURCEMAP=false && npx react-scripts start",
-    "build": "set GENERATE_SOURCEMAP=false && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
