@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkswap_app_react=self.webpackChunkswap_app_react||[]).push([[1284],{1284(e,a,l){l.r(a),l.d(a,{arrowRightSvg:()=>p});var n,r=l(7528);const p=(0,l(7022).JW)(n||(n=(0,r.A)(['<svg fill="none" viewBox="0 0 14 15">\n  <path\n    fill="currentColor"\n    fill-rule="evenodd"\n    d="M1 7.99a1 1 0 0 1 1-1h7.58L7.12 4.53A1 1 0 1 1 8.54 3.1l4.16 4.17a1 1 0 0 1 0 1.41l-4.16 4.17a1 1 0 1 1-1.42-1.41l2.46-2.46H2a1 1 0 0 1-1-1Z"\n    clip-rule="evenodd"\n  />\n</svg>'])))}}]);
+//# sourceMappingURL=1284.33b92920.chunk.js.map
