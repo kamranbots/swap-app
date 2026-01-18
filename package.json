@@ -1,0 +1,58 @@
+{
+  "name": "swap-app-react",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.0.0",
+    "@tanstack/react-query": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "viem": "^2.0.0",
+    "wagmi": "^2.0.0",
+    "web3": "^4.0.0",
+    "@solana/web3.js": "^1.91.0",
+    "tronweb": "^5.3.1"
+  },
+  "devDependencies": {
+    "ajv": "8.12.0",
+    "ajv-formats": "2.1.1"
+  },
+  "overrides": {
+    "openapi-fetch": "0.9.1",
+    "@metamask/sdk": "0.10.1"
+  },
+  "scripts": {
+    "start": "set GENERATE_SOURCEMAP=false && npx react-scripts start",
+    "build": "set GENERATE_SOURCEMAP=false && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ],
+    "env": {
+      "es2020": true,
+      "browser": true
+    },
+    "globals": {
+      "BigInt": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
